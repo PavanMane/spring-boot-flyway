@@ -1,5 +1,3 @@
-# spring-boot-flyway
-
 # Change logs
 
 #v1.0.1
