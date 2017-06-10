@@ -14,6 +14,17 @@ repositories {
     mavenCentral()
 }
 
+ext.microserviceBaseName = 'spring-boot-flyway'
+ext.globalVersion = '1.0.1'
+ext.deployDir = 'deploy/application/dist'
+ext.buildType = 'SNAPSHOT'
+//
+jar {
+    baseName = project.property('microserviceBaseName')
+    version =  project.property('globalVersion') + '.' + project.property('buildType')
+    destinationDir = file(project.property('deployDir'))
+}
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
