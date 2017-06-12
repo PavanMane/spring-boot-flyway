@@ -1,8 +1,8 @@
 # Change logs
 <p>
-#v1.0.2
-	- adds on to #v1.0.1
-	- Uses CustomFlywayMigrationStrategy to collate all the flyway.locations from active profiles and hands it to flyway for migrations.
+#v1.0.2<br>
+	<p>- adds on to #v1.0.1<br></p>
+	<p>- Uses CustomFlywayMigrationStrategy to collate all the flyway.locations from active profiles and hands it to flyway for migrations.<br></p>
 </p>
 <p>
 #v1.0.1<br>
